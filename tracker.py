@@ -32,7 +32,7 @@ def send_mail():
 
     server.ehlo()
 
-    server.login('killershaina@gmail.com', 'killershaina')
+    server.login('EMAIL', 'PASSWORD')
 
     subject = 'price fell down!'
 
